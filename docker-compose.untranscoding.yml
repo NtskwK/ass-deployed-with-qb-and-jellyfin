@@ -1,0 +1,66 @@
+services:
+  qBittorrent:
+    image: linuxserver/qbittorrent:latest
+    container_name: qBittorrent
+    ports:
+      - ${QB_PORT}:${QB_PORT} #qb端口
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - WEBUIPORT=${QB_PORT}
+      - TZ=${TZ}
+    volumes:
+      - ./qb:/config
+      - ${Bangumi_Location}:/bangumi #番剧挂载路径
+    restart: unless-stopped
+    networks:
+      - ani-rss
+
+  ani-rss:
+    image: wushuo894/ani-rss:latest
+    container_name: ani-rss
+    ports:
+      - ${ASS_PORT}:${ASS_PORT}
+    environment:
+      - PORT=${ASS_PORT}
+      - CONFIG=/config
+      - TZ=${TZ}
+    volumes:
+      - ./ani-rss:/config
+      - ${Bangumi_Location}:/bangumi #番剧挂载路径
+    restart: unless-stopped
+    networks:
+      - ani-rss
+
+  jellyfin:
+    # image: jellyfin/jellyfin
+    image: nyanmisaka/jellyfin
+    container_name: jellyfin
+    # network_mode: 'host'
+    volumes:
+      - ./jellyfin/config:/config
+      - ./jellyfin/cache:/cache
+      - ./jellyfin/font:/font
+      - type: bind
+        source: ${Bangumi_Location}
+        target: /media
+      - type: bind
+        source: ./movie
+        target: /movie
+    restart: 'unless-stopped'
+    ports:
+      - "8096:8096"
+      - "8920:8920"
+      - "1900:1900/udp"
+      - "7359:7359/udp"
+    # Optional - alternative address used for autodiscovery
+    # environment:
+      # - JELLYFIN_PublishedServerUrl=http://example.com
+    # Optional - may be necessary for docker healthcheck to pass if running in host network mode
+    # extra_hosts:
+    #   - 'host.docker.internal:host-gateway'
+
+networks:
+  ani-rss:
+    name: ani-rss
+    # external: true
