@@ -53,9 +53,14 @@ services:
       - "8920:8920"
       - "1900:1900/udp"
       - "7359:7359/udp"
+    # 参考手册
+    # https://docs.docker.com/compose/how-tos/gpu-support/
+    # https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
+    # 如果你不用Nvidia显卡进行转码，可以注释掉下面的部分
     runtime: nvidia
     devices:
       - /dev/dri
+      # Intel转码，需要手动配置驱动
       # - /dev/dri/renderD128
       # - /dev/dri/card0
     deploy:
@@ -77,4 +82,4 @@ services:
 networks:
   ani-rss:
     name: ani-rss
-    external: true
+    # external: true
