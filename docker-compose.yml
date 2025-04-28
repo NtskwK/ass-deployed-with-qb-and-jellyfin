@@ -59,7 +59,7 @@ services:
     # 如果你不用Nvidia显卡进行转码，可以注释掉下面的部分
     runtime: nvidia
     devices:
-      - /dev/dri
+      - /dev/dri:/dev/dri
       # Intel转码，需要手动配置驱动
       # - /dev/dri/renderD128
       # - /dev/dri/card0
