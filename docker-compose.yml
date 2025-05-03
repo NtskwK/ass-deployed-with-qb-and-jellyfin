@@ -79,6 +79,21 @@ services:
     # extra_hosts:
     #   - 'host.docker.internal:host-gateway'
 
+  pbh:
+    image: registry.cn-hangzhou.aliyuncs.com/ghostchu/peerbanhelper:v7.4.14
+    container_name: peerbanhelper
+    volumes:
+      - ./peerbanhelper:/app/data
+    ports:
+      - "9898:9898"
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=UTC
+    restart: unless-stopped
+    networks:
+      - ani-rss
+
 networks:
   ani-rss:
     name: ani-rss
