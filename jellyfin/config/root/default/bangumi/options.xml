@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LibraryOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Enabled>true</Enabled>
+  <EnablePhotos>true</EnablePhotos>
+  <EnableRealtimeMonitor>true</EnableRealtimeMonitor>
+  <EnableLUFSScan>true</EnableLUFSScan>
+  <EnableChapterImageExtraction>true</EnableChapterImageExtraction>
+  <ExtractChapterImagesDuringLibraryScan>true</ExtractChapterImagesDuringLibraryScan>
+  <EnableTrickplayImageExtraction>true</EnableTrickplayImageExtraction>
+  <ExtractTrickplayImagesDuringLibraryScan>true</ExtractTrickplayImagesDuringLibraryScan>
+  <PathInfos>
+    <MediaPathInfo>
+      <Path>/media</Path>
+    </MediaPathInfo>
+  </PathInfos>
+  <SaveLocalMetadata>true</SaveLocalMetadata>
+  <EnableAutomaticSeriesGrouping>false</EnableAutomaticSeriesGrouping>
+  <EnableEmbeddedTitles>true</EnableEmbeddedTitles>
+  <EnableEmbeddedExtrasTitles>true</EnableEmbeddedExtrasTitles>
+  <EnableEmbeddedEpisodeInfos>false</EnableEmbeddedEpisodeInfos>
+  <AutomaticRefreshIntervalDays>30</AutomaticRefreshIntervalDays>
+  <PreferredMetadataLanguage>zh</PreferredMetadataLanguage>
+  <MetadataCountryCode>TW</MetadataCountryCode>
+  <SeasonZeroDisplayName>Specials</SeasonZeroDisplayName>
+  <MetadataSavers>
+    <string>Nfo</string>
+  </MetadataSavers>
+  <DisabledLocalMetadataReaders />
+  <LocalMetadataReaderOrder>
+    <string>Nfo</string>
+  </LocalMetadataReaderOrder>
+  <DisabledSubtitleFetchers />
+  <SubtitleFetcherOrder>
+    <string>Danmu</string>
+  </SubtitleFetcherOrder>
+  <DisabledMediaSegmentProviders />
+  <MediaSegmentProvideOrder />
+  <SkipSubtitlesIfEmbeddedSubtitlesPresent>false</SkipSubtitlesIfEmbeddedSubtitlesPresent>
+  <SkipSubtitlesIfAudioTrackMatches>false</SkipSubtitlesIfAudioTrackMatches>
+  <SubtitleDownloadLanguages>
+    <string>chi</string>
+    <string>chi</string>
+    <string>chi</string>
+    <string>chi</string>
+  </SubtitleDownloadLanguages>
+  <RequirePerfectSubtitleMatch>true</RequirePerfectSubtitleMatch>
+  <SaveSubtitlesWithMedia>true</SaveSubtitlesWithMedia>
+  <SaveTrickplayWithMedia>true</SaveTrickplayWithMedia>
+  <DisabledLyricFetchers />
+  <LyricFetcherOrder />
+  <CustomTagDelimiters>
+    <string>/</string>
+    <string>|</string>
+    <string>;</string>
+    <string>\</string>
+  </CustomTagDelimiters>
+  <DelimiterWhitelist />
+  <AutomaticallyAddToCollection>false</AutomaticallyAddToCollection>
+  <AllowEmbeddedSubtitles>AllowAll</AllowEmbeddedSubtitles>
+  <TypeOptions>
+    <TypeOptions>
+      <Type>Series</Type>
+      <MetadataFetchers>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>AniSearch</string>
+        <string>AniList</string>
+        <string>The Open Movie Database</string>
+        <string>TheMovieDb</string>
+      </MetadataFetchers>
+      <MetadataFetcherOrder>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>AniSearch</string>
+        <string>AniList</string>
+        <string>The Open Movie Database</string>
+        <string>TheMovieDb</string>
+      </MetadataFetcherOrder>
+      <ImageFetchers>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>AniList</string>
+        <string>AniSearch</string>
+        <string>TheMovieDb</string>
+      </ImageFetchers>
+      <ImageFetcherOrder>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>AniList</string>
+        <string>AniSearch</string>
+        <string>TheMovieDb</string>
+      </ImageFetcherOrder>
+      <ImageOptions />
+    </TypeOptions>
+    <TypeOptions>
+      <Type>Season</Type>
+      <MetadataFetchers>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>TheMovieDb</string>
+      </MetadataFetchers>
+      <MetadataFetcherOrder>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>TheMovieDb</string>
+      </MetadataFetcherOrder>
+      <ImageFetchers>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>AniList</string>
+        <string>AniSearch</string>
+        <string>TheMovieDb</string>
+      </ImageFetchers>
+      <ImageFetcherOrder>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>AniList</string>
+        <string>AniSearch</string>
+        <string>TheMovieDb</string>
+      </ImageFetcherOrder>
+      <ImageOptions />
+    </TypeOptions>
+    <TypeOptions>
+      <Type>Episode</Type>
+      <MetadataFetchers>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
+      </MetadataFetchers>
+      <MetadataFetcherOrder>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
+      </MetadataFetcherOrder>
+      <ImageFetchers>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
+        <string>Embedded Image Extractor</string>
+        <string>Screen Grabber</string>
+      </ImageFetchers>
+      <ImageFetcherOrder>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
+        <string>Embedded Image Extractor</string>
+        <string>Screen Grabber</string>
+      </ImageFetcherOrder>
+      <ImageOptions />
+    </TypeOptions>
+    <TypeOptions>
+      <Type>Movie</Type>
+      <MetadataFetchers>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>AniList</string>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
+      </MetadataFetchers>
+      <MetadataFetcherOrder>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>AniList</string>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
+      </MetadataFetcherOrder>
+      <ImageFetchers>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>AniList</string>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
+        <string>Embedded Image Extractor</string>
+        <string>Screen Grabber</string>
+      </ImageFetchers>
+      <ImageFetcherOrder>
+        <string>Bangumi</string>
+        <string>AniDB</string>
+        <string>AniList</string>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
+        <string>Embedded Image Extractor</string>
+        <string>Screen Grabber</string>
+      </ImageFetcherOrder>
+      <ImageOptions />
+    </TypeOptions>
+  </TypeOptions>
+</LibraryOptions>

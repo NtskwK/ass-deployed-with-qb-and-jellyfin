@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ToAss>true</ToAss>
+  <AssFont />
+  <AssFontSize />
+  <AssLineCount />
+  <AssSpeed />
+  <AssRemoveEmoji>true</AssRemoveEmoji>
+  <DownloadOption>
+    <EnableEpisodeCountSame>true</EnableEpisodeCountSame>
+  </DownloadOption>
+  <AssTextOpacity />
+  <Dandan>
+    <WithRelatedDanmu>true</WithRelatedDanmu>
+    <ChConvert>0</ChConvert>
+  </Dandan>
+  <Scrapers>
+    <Scraper>
+      <Enable>true</Enable>
+      <Name>bilibili</Name>
+    </Scraper>
+    <Scraper>
+      <Enable>true</Enable>
+      <Name>弹弹play</Name>
+    </Scraper>
+    <Scraper>
+      <Enable>true</Enable>
+      <Name>优酷</Name>
+    </Scraper>
+    <Scraper>
+      <Enable>true</Enable>
+      <Name>爱奇艺</Name>
+    </Scraper>
+    <Scraper>
+      <Enable>true</Enable>
+      <Name>腾讯</Name>
+    </Scraper>
+    <Scraper>
+      <Enable>true</Enable>
+      <Name>芒果TV</Name>
+    </Scraper>
+  </Scrapers>
+</PluginConfiguration>

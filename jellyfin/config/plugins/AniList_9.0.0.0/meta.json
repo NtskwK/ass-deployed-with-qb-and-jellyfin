@@ -1,0 +1,16 @@
+{
+  "category": "Metadata",
+  "changelog": "- Limit amount of people in metadata search result (#68) @AkaTenshi\n- Feature: Decouples VA filter from the title language, and moves to the new Anilist StaffLanguage API key (#65) @mmshivesh\n\n### Dependency updates ###\n- Update dependency AnitomySharp.NET6 to v0.5.1 (#64) @renovate",
+  "description": "",
+  "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
+  "name": "AniList",
+  "overview": "AniList metadata provider",
+  "owner": "jellyfin",
+  "targetAbi": "10.9.0.0",
+  "timestamp": "2024-05-13T13:24:15.0000000Z",
+  "version": "9.0.0.0",
+  "status": "Superceded",
+  "autoUpdate": true,
+  "imagePath": "/config/plugins/AniList_9.0.0.0/jellyfin-plugin-anilist.png",
+  "assemblies": []
+}

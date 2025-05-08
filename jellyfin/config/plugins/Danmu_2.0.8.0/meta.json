@@ -1,0 +1,16 @@
+{
+  "category": "Metadata",
+  "changelog": "\u4F18\u5316\u817E\u8BAF\u89C6\u9891\u5267\u96C6api",
+  "description": "",
+  "guid": "5b39da44-5314-4940-8e26-54c821c17f86",
+  "name": "Danmu",
+  "overview": "jellyfin\u5F39\u5E55\u4E0B\u8F7D\u63D2\u4EF6",
+  "owner": "cxfksword",
+  "targetAbi": "10.9.0.0",
+  "timestamp": "2024-09-01T02:29:25.0000000Z",
+  "version": "2.0.8.0",
+  "status": "Superceded",
+  "autoUpdate": true,
+  "imagePath": "/config/plugins/Danmu_2.0.8.0/logo.png",
+  "assemblies": []
+}

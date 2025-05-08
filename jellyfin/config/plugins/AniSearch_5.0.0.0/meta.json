@@ -1,0 +1,16 @@
+{
+  "category": "Metadata",
+  "changelog": "- 10.9 (#22) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#21) @methbkts\n- Use meta ci (#13) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency microsoft.extensions.http to v6 (#17) @renovate\n\n### CI \u0026 build changes ###\n- fix: meta ci workflows (#16) @h1dden-da3m0n\n- Use meta ci (#13) @crobibero",
+  "description": "AniSearch metadata provider\n",
+  "guid": "776d9158-b91f-49d9-82c5-dacce63d63b8",
+  "name": "AniSearch",
+  "overview": "AniSearch metadata provider",
+  "owner": "jellyfin",
+  "targetAbi": "10.9.0.0",
+  "timestamp": "2024-05-11T19:36:42.0000000Z",
+  "version": "5.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/plugins/AniSearch_5.0.0.0/jellyfin-plugin-anisearch.png",
+  "assemblies": []
+}

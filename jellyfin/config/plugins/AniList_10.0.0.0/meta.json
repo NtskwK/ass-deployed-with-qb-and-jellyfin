@@ -1,0 +1,16 @@
+{
+  "category": "Metadata",
+  "changelog": "- Support for retreiving Person metadata (#75) @HansLehnert\n\n### Dependency updates ###\n- Update dotnet monorepo to 8.0.1 (#80) @renovate",
+  "description": "",
+  "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
+  "name": "AniList",
+  "overview": "AniList metadata provider",
+  "owner": "jellyfin",
+  "targetAbi": "10.10.0.0",
+  "timestamp": "2024-10-26T18:44:42.0000000Z",
+  "version": "10.0.0.0",
+  "status": "Superceded",
+  "autoUpdate": true,
+  "imagePath": "/config/plugins/AniList_10.0.0.0/jellyfin-plugin-anilist.png",
+  "assemblies": []
+}

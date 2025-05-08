@@ -1,0 +1,16 @@
+{
+  "category": "Metadata",
+  "changelog": "- Map tag \u002218 restricted\u0022 to parental rating NC-17 (#48) @nalsai\n- Strip the year from the name for finding matches (#55) @nalsai\n- Add n-apostrophe replacement (#56) @nalsai\n- Add wo replacement (#57) @nalsai",
+  "description": "",
+  "guid": "a2b2a7ed-aa28-4521-a64a-63d86901f246",
+  "name": "AniDB",
+  "overview": "AniDB metadata provider",
+  "owner": "jellyfin",
+  "targetAbi": "10.9.4.0",
+  "timestamp": "2024-06-02T14:10:34.0000000Z",
+  "version": "9.0.0.0",
+  "status": "Superceded",
+  "autoUpdate": true,
+  "imagePath": "/config/plugins/AniDB_9.0.0.0/jellyfin-plugin-anidb.png",
+  "assemblies": []
+}

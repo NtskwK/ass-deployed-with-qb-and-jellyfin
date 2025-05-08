@@ -1,0 +1,16 @@
+{
+  "category": "Metadata",
+  "changelog": "## Important\r\n - \u652F\u6301 Jellyfin 10.10.0\uFF08\u5411\u4E0B\u517C\u5BB9 10.9.0\uFF09\r\n - [\u79BB\u7EBF\u6570\u636E\u5E93](https://github.com/bangumi/Archive/) \u652F\u6301\uFF1A\r\n   - \u5F53\u5B58\u5728\u79BB\u7EBF\u6570\u636E\u65F6\u5E93\u65F6\uFF0C\u4F18\u5148\u901A\u8FC7\u79BB\u7EBF\u6570\u636E\u5E93\u67E5\u8BE2\r\n   - \u9ED8\u8BA4\u6BCF\u5468\u66F4\u65B0\u4E00\u6B21\uFF0C\u53EF\u5728 Jellyfin - \u8BA1\u5212\u4EFB\u52A1 \u4E2D\u81EA\u884C\u4FEE\u6539\r\n   - \u79BB\u7EBF\u6570\u636E\u5E93\u4E0B\u8F7D\u89E3\u538B\u8FC7\u7A0B\u9700\u8981\u5360\u7528\u7EA6 1GB \u5185\u5B58\uFF0C\u7D22\u5F15\u8FC7\u7A0B\u9700\u8981\u5360\u7528\u5927\u91CF CPU \u8D44\u6E90\u3002\\\r\n     \uFF08\u4F5C\u4E3A\u53C2\u8003 M2 Mac \u9700\u8981\u7EA6 3 \u5206\u949F\uFF0C16 \u6838\u7684 Epyc \u9700\u8981\u51E0\u5341\u79D2\uFF09\r\n   - \u4E00\u5B9A\u7A0B\u5EA6\u89E3\u51B3 bgm.tv \u6302\u6389\u6216\u88AB\u5899\u5BFC\u81F4\u7684\u62A5\u9519\r\n\r\n## What\u0027s Changed\r\n* do not use series overview when the episode overview is empty by @huihuimoe in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/154\r\n* fix: characters sort by relation by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/156\r\n* feat: update Anitomy by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/157\r\n* Feat sort by fuzzy by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/158\r\n* fix: return all subjects after sorted by fuzzy by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/161\r\n\r\n## New Contributors\r\n* @huihuimoe made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/154\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.6.2...1.7.0",
+  "description": "",
+  "guid": "41b59f1b-a6cf-474a-b416-785379cbd856",
+  "name": "Bangumi",
+  "overview": "bgm.tv metadata provider for Jellyfin",
+  "owner": "kookxiang",
+  "targetAbi": "10.9.0.0",
+  "timestamp": "2024-10-28T14:07:05.0000000Z",
+  "version": "1.7.0.0",
+  "status": "Superceded",
+  "autoUpdate": true,
+  "imagePath": "",
+  "assemblies": []
+}

@@ -1,0 +1,16 @@
+{
+  "category": "Metadata",
+  "changelog": "- Cleanup (#91) @Shadowghost\n\n### New features and improvements ###\n- Added a setting to make only animation studio appear as metadata (with fixes) (#88) @sjorge",
+  "description": "AniList metadata provider\n",
+  "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
+  "name": "AniList",
+  "overview": "AniList metadata provider",
+  "owner": "jellyfin",
+  "targetAbi": "10.10.6.0",
+  "timestamp": "2025-02-25T03:40:36.0000000Z",
+  "version": "11.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/plugins/AniList_11.0.0.0/jellyfin-plugin-anilist.png",
+  "assemblies": []
+}

@@ -1,0 +1,16 @@
+{
+  "category": "Metadata",
+  "changelog": "## Important\r\n - \u589E\u52A0\u4E86 API \u5730\u5740\u4FEE\u6539\u529F\u80FD\uFF0C\u4F46\u8FD8\u662F\u5EFA\u8BAE\u7ED9 Jellyfin \u6302\u68AF\u5B50\r\n - \u73B0\u5728\u4FEE\u6539\u8BBE\u7F6E\u540E\u9700\u8981\u624B\u52A8\u70B9\u51FB\u4FDD\u5B58\u6309\u94AE\r\n\r\n## What\u0027s Changed\r\n* fix: fix movie play status syncing in JF movie libraries by @RandomNamer in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/136\r\n* feat: traversal searching for next season by @RandomNamer in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/135\r\n* fix error when season folder not exists by @fiochen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/141\r\n* append available access token for emby\r\n\r\n## New Contributors\r\n* @RandomNamer made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/136\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.6.1...1.6.2",
+  "description": "bgm.tv metadata provider for Jellyfin",
+  "guid": "41b59f1b-a6cf-474a-b416-785379cbd856",
+  "name": "Bangumi",
+  "overview": "bgm.tv metadata provider for Jellyfin",
+  "owner": "kookxiang",
+  "targetAbi": "10.9.0.0",
+  "timestamp": "2024-07-21T15:53:11.0000000Z",
+  "version": "1.6.2.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "",
+  "assemblies": []
+}
