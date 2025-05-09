@@ -1,7 +1,7 @@
 {
   "category": "Metadata",
   "changelog": "- Cleanup (#91) @Shadowghost\n\n### New features and improvements ###\n- Added a setting to make only animation studio appear as metadata (with fixes) (#88) @sjorge",
-  "description": "AniList metadata provider\n",
+  "description": "",
   "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
   "name": "AniList",
   "overview": "AniList metadata provider",
