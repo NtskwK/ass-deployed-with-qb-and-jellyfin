@@ -28,6 +28,8 @@ peerbanhelper/persist/*
 
 *log*
 *.lock
+*.key
+*.pub
 
 peerbanhelper/running.marker
 peerbanhelper/persist/*
