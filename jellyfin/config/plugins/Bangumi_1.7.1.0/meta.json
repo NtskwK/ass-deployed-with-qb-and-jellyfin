@@ -1,7 +1,7 @@
 {
   "category": "Metadata",
   "changelog": "## What\u0027s Changed\r\n\r\n- \u4F18\u5316\u79BB\u7EBF\u6570\u636E\u5E93\u66F4\u65B0\u903B\u8F91\r\n- \u8FD1\u671F\u653E\u9001\u7684\u5267\u96C6\u59CB\u7EC8\u4F7F\u7528\u5728\u7EBF API \u83B7\u53D6\r\n- \u589E\u52A0 [\u516C\u5171\u6807\u7B7E](https://bgm.tv/group/topic/406595) \u652F\u6301\r\n- \u4FEE\u590D OAuth \u6388\u6743\u65F6\u95F4\u663E\u793A\u4E0D\u6B63\u786E\u7684\u95EE\u9898\uFF08\u4E0D\u5F71\u54CD\u6B63\u5E38\u4F7F\u7528\uFF09\r\n- \u4FEE\u6B63\u67E5\u8BE2\u56FE\u7247\u65F6\u6CA1\u6709\u643A\u5E26\u767B\u5F55\u6001\u7684\u95EE\u9898 #181\r\n- \u4EE3\u7801\u7ED3\u6784 / \u6253\u5305\u6D41\u7A0B\u8C03\u6574 #159 \r\n\r\n\u6700\u65B0 CI \u6D4B\u8BD5\u5305\u53EF\u4EE5\u5728 https://github.com/kookxiang/jellyfin-plugin-bangumi/releases/tag/ci \u4E0B\u8F7D\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.7.0...1.7.1",
-  "description": "bgm.tv metadata provider for Jellyfin",
+  "description": "",
   "guid": "41b59f1b-a6cf-474a-b416-785379cbd856",
   "name": "Bangumi",
   "overview": "bgm.tv metadata provider for Jellyfin",

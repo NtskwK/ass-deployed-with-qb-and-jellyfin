@@ -30,3 +30,8 @@ peerbanhelper/persist/*
 *.lock
 
 peerbanhelper/running.marker
+peerbanhelper/persist/*
+
+jellyfin/config/plugins/configurations/*
+peerbanhelper/ipdb/geoip/*
+peerbanhelper/sub/all-in-one.txt
